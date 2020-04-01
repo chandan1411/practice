@@ -16,7 +16,7 @@ import com.example.entity.Employee;
 import com.example.entity.Employees;
 
 @RestController
-@RequestMapping(path = "/employees")
+@RequestMapping(path = "/employees")// added new request mapping
 public class EmployeeController {
 	
 	@Autowired
